@@ -19,6 +19,7 @@ import ReactDom from 'react-dom/client';
 //import AppStateR from './AppStateR';
 //import AppReducer from './AppReducer';
 import AppMemo from './AppMemo';
+import AppUseMemo from './AppUseMemo';
 // let name="Adarsh";
 // let isLogin=false;
 const root=ReactDom.createRoot(document.getElementById("root"));
@@ -41,5 +42,6 @@ root.render(
 //<Context/>
 //<AppStateR/>
 //<AppReducer/>
-<AppMemo/>
+//<AppMemo/>
+<AppUseMemo/>
 )
