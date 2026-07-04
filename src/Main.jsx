@@ -22,6 +22,7 @@ import AppMemo from './AppMemo';
 import AppUseMemo from './AppUseMemo';
 import AppuseCallback from './AppuseCallback';
 import AppHooks from './AppHooks';
+import CstmTask from './CstmTask';
 // let name="Adarsh";
 // let isLogin=false;
 const root=ReactDom.createRoot(document.getElementById("root"));
@@ -47,5 +48,6 @@ root.render(
 //<AppMemo/>
 //<AppUseMemo/>
 //<AppuseCallback/>
-<AppHooks/>
+//<AppHooks/>
+<CstmTask/>
 )

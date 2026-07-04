@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
 
-const apikey="fa40c5d093c097436d4ca8485842e28d";
+const apikey="import.meta.env.VITE_KEY";
 
  
 
